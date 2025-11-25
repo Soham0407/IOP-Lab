@@ -22,6 +22,6 @@ int main()
     int num; 
     printf("Enter a number: "); 
     scanf("%d", &num); 
-    is_palindrome(num); 
+    printf("%d",is_palindrome(num)); 
     return 0; 
 }

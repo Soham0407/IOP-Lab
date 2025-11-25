@@ -1,4 +1,5 @@
 //FUNCTION THAT RETURN 1 IF ITS ARGUMENT IS PRIME NUMBER AND RETURN ZERO OTHERWISE.
+#include <stdio.h>
 int isPrime(int n) 
 { 
     if (n <= 1) 

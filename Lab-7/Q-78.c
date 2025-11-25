@@ -32,6 +32,6 @@ int main()
     int num; 
     printf("Enter a number: "); 
     scanf("%d", &num); 
-    is_armstrong(num); 
+    printf("%d",is_armstrong(num)); 
     return 0; 
 } 
