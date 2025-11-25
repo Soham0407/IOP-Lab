@@ -14,15 +14,15 @@ int main()
     int i = 0, j = 0, k = 0; 
   
     printf("Enter %d sorted elements for first array:\n", n1); 
-    for (i = 0; i < n1; i++) 
+    for (int x = 0; x < n1; x++) 
     { 
-        scanf("%d", &a[i]); 
+        scanf("%d", &a[x]); 
     } 
 
     printf("Enter %d sorted elements for second array:\n", n2); 
-    for (i = 0; i < n2; i++) 
+    for (int x = 0; x < n2; x++) 
     { 
-        scanf("%d", &b[i]); 
+        scanf("%d", &b[x]); 
     } 
  
     // Merge 
